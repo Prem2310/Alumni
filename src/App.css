@@ -1,0 +1,543 @@
+body {
+  font-family: 'Playfair Display', serif;
+
+
+}
+
+.App {
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+header {
+  font-family: "Libre Franklin", sans-serif;
+  letter-spacing: 1px;
+  position: fixed;
+  top: 0;
+  left: 02;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  background-color: #021a2b;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.navbar {
+  display: inline;
+  list-style-type: none;
+  margin: 20px;
+  padding: 20px;
+  color: #fff;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+ cursor: pointer;
+  
+}
+
+li:hover {
+  color:#59b0ef ;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://marvel-b1-cdn.bc0a.com/f00000000164722/www.udel.edu/content/dam/udelImages/rlh/CampusScenery/South-Academy-header-blue.jpg/_jcr_content/renditions/original");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 90px;
+  margin-top: 70px;
+  
+}
+
+
+ .main-heading {
+  margin-top: 0;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.re-connect {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.content {
+  position: absolute;
+  top: 55%;
+  left: 8%;
+  transform: translateY(-50%);
+  z-index: 2;
+  text-align: left;
+  color: white;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.alumni-search {
+  background: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  border: solid 1px white;
+  height: 39px;
+  width: 200px;
+  /*box-shadow: 5px 5px 5px -1px;*/
+}
+
+
+.events {
+  position: absolute;
+  top: 700px;
+  left: 40%;
+  align-items: center;
+  
+  margin-bottom: 0;
+
+}
+
+.upcoming {
+  font-size: 40px;
+}
+
+hr {
+  width: 30%;
+  margin-left: 0;
+  margin-top: 20px;
+}
+
+.event-list {
+  margin-top: 70px;
+}
+
+.search {
+  margin: 300px auto;
+}
+
+
+
+.register-page {
+  
+  /*background-image: url("https://intranet.birmingham.ac.uk/staff/images/brand/download/Green-Heart-at-night.jpg");*/
+  padding: 2em;
+  background-repeat: no-repeat;
+ 
+  background-color: #cfe3f2;
+  background-size: cover;
+  
+  
+}
+
+.container {
+   
+  max-width: 500px;
+  width: 100%;
+  background-color:  #021a2b;
+  margin: 45px auto;
+  padding: 50px;
+  padding-top: 4%;
+  padding-bottom: 6%;
+  box-shadow: 0 0.188rem 1.55rem #383e43;
+  border-radius: 0.8rem;
+  height: 70vh;
+  /*display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;*/
+
+}
+
+.container .title {
+  
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #F1F6F9;
+  font-family: 'Playfair Display', serif;
+
+}
+
+
+input {
+  display:block;
+  align-self: center;
+  margin: auto ;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 300px;
+  border-radius: 3px;
+  height: 2vh;
+  padding: 0.1vh;
+  border: none;
+   
+}
+
+/* @media (min-height:700px) {
+  padding-top: 40px;
+    padding-bottom: 40px;
+} */
+
+.title {
+  padding-bottom: 15px;
+}
+
+textarea {
+  width: 300px;
+  color: rgb(202, 206, 210);
+  resize: none;
+}
+
+.user-details {
+  align-items: center;
+  transition: all 0.3s ease ;
+  
+}
+
+.sign-up {
+  font-family: 'Playfair Display', serif;
+  background: transparent;
+   margin-top: 10px;
+    color: rgb(251, 249, 249);
+    border: 2px solid rgb(255, 255, 255);
+    width: 150px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight:500px;
+    vertical-align: middle;
+}
+
+.sign-up:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 3, 5);
+}
+
+.search {
+  background-color: #021a2b;
+  width: 90%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+
+ .search-here {
+  position: relative;
+  height: 47px;
+  margin-left: 2px;
+  border-radius: 0;
+  
+ }
+
+ .sec-center {
+  position: relative;
+  max-width: 100%;
+  text-align: center;
+  z-index: 200;
+}
+[type="checkbox"]:checked,
+[type="checkbox"]:not(:checked){
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+  
+  
+
+
+.dropdown:checked + label,
+.dropdown:not(:checked) + label{
+  position: relative;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 2;
+  height: 50px;
+  transition: all 200ms linear;
+  border-radius: 4px;
+  width: 220px;
+  letter-spacing: 1px;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  text-align: center;
+  border: none;
+  background-color: #ffeba7;
+  cursor: pointer;
+  color: #102770;
+  box-shadow: 0 12px 35px 0 rgba(255,235,167,.15);
+}
+
+.dropdown:checked + label:before,
+.dropdown:not(:checked) + label:before{
+  position: fixed;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  cursor: auto;
+  pointer-events: none;
+}
+.dropdown:checked + label:before{
+  pointer-events: auto;
+}
+.dropdown:not(:checked) + label .uil {
+  font-size: 24px;
+  margin-left: 10px;
+  transition: transform 200ms linear;
+}
+.dropdown:checked + label .uil {
+  transform: rotate(180deg);
+  font-size: 24px;
+  margin-left: 10px;
+  transition: transform 200ms linear;
+}
+.section-dropdown {
+  position: absolute;
+  padding: 5px;
+  background-color: #111;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+  box-shadow: 0 14px 35px 0 rgba(9,9,12,0.4);
+  z-index: 2;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(20px);
+  transition: all 200ms linear;
+}
+.dark-light:checked ~ .sec-center .section-dropdown {
+  background-color: #fff;
+  box-shadow: 0 14px 35px 0 rgba(9,9,12,0.15);
+}
+.dropdown:checked ~ .section-dropdown{
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+.section-dropdown:before {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  content: '';
+  display: block;
+  z-index: 1;
+}
+.section-dropdown:after {
+  position: absolute;
+  top: -7px;
+  left: 30px;
+  width: 0; 
+  height: 0; 
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent; 
+  border-bottom: 8px solid #111;
+  content: '';
+  display: block;
+  z-index: 2;
+  transition: all 200ms linear;
+}
+.dark-light:checked ~ .sec-center .section-dropdown:after {
+  border-bottom: 8px solid #fff;
+}
+
+a {
+  position: relative;
+  color: #fff;
+  transition: all 200ms linear;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 2px;
+  padding: 5px 0;
+  padding-left: 20px;
+  padding-right: 15px;
+  margin: 2px 0;
+  text-align: left;
+  text-decoration: none;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: space-between;
+    -ms-flex-pack: distribute;
+}
+.dark-light:checked ~ .sec-center .section-dropdown a {
+  color: #021a2b;
+}
+a:hover {
+  color: #021a2b;
+  background-color: #ffeba7;
+}
+.dark-light:checked ~ .sec-center .section-dropdown a:hover {
+  color: #ffeba7;
+  background-color: #021a2b;
+}
+a .uil {
+  font-size: 22px;
+}
+.dropdown-sub:checked + label,
+.dropdown-sub:not(:checked) + label{
+  position: relative;
+  color: #fff;
+  transition: all 200ms linear;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 2px;
+  padding: 5px 0;
+  padding-left: 20px;
+  padding-right: 15px;
+  text-align: left;
+  text-decoration: none;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: space-between;
+    -ms-flex-pack: distribute;
+    cursor: pointer;
+}
+.dropdown-sub:checked + label .uil,
+.dropdown-sub:not(:checked) + label .uil{
+  font-size: 22px;
+}
+.dropdown-sub:not(:checked) + label .uil {
+  transition: transform 200ms linear;
+}
+.dropdown-sub:checked + label .uil {
+  transform: rotate(135deg);
+  transition: transform 200ms linear;
+}
+.dropdown-sub:checked + label:hover,
+.dropdown-sub:not(:checked) + label:hover{
+  color: #021a2b;
+  background-color: #ffeba7;
+}
+.dark-light:checked ~ .sec-center .section-dropdown .for-dropdown-sub{
+  color: #021a2b;
+}
+.dark-light:checked ~ .sec-center .section-dropdown .for-dropdown-sub:hover{
+  color: #ffeba7;
+  background-color: #021a2b;
+}
+
+.section-dropdown-sub {
+  position: relative;
+  display: block;
+  width: 100%;
+  pointer-events: none;
+  opacity: 0;
+  max-height: 0;
+  padding-left: 10px;
+  padding-right: 3px;
+  overflow: hidden;
+  transition: all 200ms linear;
+}
+.dropdown-sub:checked ~ .section-dropdown-sub{
+  pointer-events: auto;
+  opacity: 1;
+  max-height: 999px;
+}
+.section-dropdown-sub a {
+  font-size: 14px;
+}
+.section-dropdown-sub a .uil {
+  font-size: 20px;
+}
+
+.dark-light:checked ~ .logo img{
+  filter: brightness(10%);
+}
+
+@media screen and (max-width: 991px) {
+.logo {
+	top: 30px;
+	left: 20px;
+}
+.dark-light:checked + label,
+.dark-light:not(:checked) + label{
+  top: 20px;
+  right: 20px;
+}
+}
+
+.about-us {
+  
+  background-color: #cfe3f2;
+  padding: 50px;
+}
+
+.copyright {
+  margin-top:70px;
+}
+
+.alumni-logo {
+  color: #cfe3f2;
+  font-family: 'Playfair Display', serif;
+  margin-left: 10px;
+}
